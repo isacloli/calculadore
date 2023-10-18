@@ -5,19 +5,19 @@ let currentlnput = "";
 
 function appendToDisplay(value) {
     currentlnput += value;
-    display.valeu = currentlnput;
+    display.value = currentlnput;
 }
 
 function clearDisplay() {
     currentlnput = "";
-    display.valeu = "";
+    display.value = "";
 }
 
 function caculateResult() {
     try {
         currentlnput = eval(currentlnput);
-        display.valeu = currentlnput;
+        display.value = currentlnput;
     } catch (error) {
-        display.valeu ="Erro";
+        display.value ="Erro";
     }
 }

@@ -8,4 +8,21 @@ body {
     margin: 0;
     background-color: hsl(309, 52%, 75%);
 }
-.calculator {}
+.calculator {
+    border: 1px solid hsl(0, 77%, 57%);
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+}
+.number {
+    background-color: #ef23d0;
+    color: hsl(108, 94%, 49%);
+}
+#display {
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+}
+.button {
+    
+}
