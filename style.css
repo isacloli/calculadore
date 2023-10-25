@@ -1,4 +1,11 @@
 /* style.css */
+/*.imagem-cabecalho {
+  width: 600px; 
+  /*height: 300px; */
+  /*border: 2px solid hsl(249, 90%, 24%); */
+  /*border-radius: 00%; */
+ /* background-color: #eee; */
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -8,6 +15,10 @@ body {
     margin: 0;
     background-color: hsl(140, 93%, 18%);
 }
+h1 { 
+    background-color: #080a7d;
+    color: rgb(173, 224, 248);
+  }
 .calculator {
     border: 1px solid hsl(278, 77%, 83%);
     width: 500px;
