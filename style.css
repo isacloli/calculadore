@@ -22,19 +22,19 @@
   
   .calculator {
   border: 2px solid hsl(310, 90%, 69%);
-  width: 800px; /* Largura aumentada para 800 pixels */
-  height: 600px; /* Altura aumentada para 600 pixels */
-  margin: 0 auto; /* Centraliza a calculadora horizontalmente na página */
+  width: 800px; 
+  height: 600px;
+  margin: 0 auto; 
   text-align: center;
     padding-top: 10px;
     background-image: url('img/iStock-687112264-768x479.jpg');
-    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
-    background-repeat: no-repeat; /* Evita que a imagem seja repetida */
+    background-size: cover; 
+    background-repeat: no-repeat; 
     }
     
   .number {
-    background-color: #5f0268; /* Cor de fundo azul */
-    color: hsl(295, 84%, 80%); /* Cor do texto branca */
+    background-color: #5f0268; 
+    color: hsl(295, 84%, 80%); 
   }
   
   #display {
