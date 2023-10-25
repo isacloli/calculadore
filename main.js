@@ -1,22 +1,22 @@
 // main.js
 
-let display = document.getElementById ("display");
+let display = document.getElementById("display");
 let currentlnput = "";
 
 function appendToDisplay(value) {
-    currentlnput += value;
-    display.value = currentlnput;
+    currentInput += value;
+    display.value = currentInput;
 }
 
 function clearDisplay() {
-    currentlnput = "";
+    currentInput = "";
     display.value = "";
 }
 
 function caculateResult() {
     try {
-        currentlnput = eval(currentlnput);
-        display.value = currentlnput;
+        currentInput = eval(currentInput);
+        display.value = currentInput;
     } catch (error) {
         display.value ="Erro";
     }
